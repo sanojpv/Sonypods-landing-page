@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.nav-links li{
+    list-style-type: none;
+    margin: 5px;
+}
+.nav-links a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-size:20px;
+  
+}
+header{
+    margin: 0;
+   padding: 10px; 
+}
+.logo{
+    display: inline-block;
+   font-size: 2rem;
+   font-weight: 500;
+}
+#main-containers{
+   
+        background-image: url("/assects/images/wireless-earbuds-with-neon-cyberpunk-style-lighting.jpg") !important;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh; 
+    
+}
+#brand-name{
+     font-size: 3.5em !important;
+     font-weight: 600;
+     color: #ffff;
+     margin-top: 35px;
+
+}
+#main-containers p{
+    color: #ffff;
+    
+    text-align: center !important;
+   
+}
+.button{
+    border: none !important;
+    outline: none !important;
+    border-radius: 25px !important;
+    background-color: #ffff !important;
+    color: blue !important;
+    font-size: 20px !important;
+}
+
