@@ -103,7 +103,7 @@ header{
 }
 /* buy section */
 .buy .card{
-    border: 2px solid green;
+    box-shadow: 3px 3px 15px;
     height: fit-content;
 }
 .buy .card .btn{
