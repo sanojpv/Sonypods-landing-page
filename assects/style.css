@@ -45,7 +45,7 @@ header{
 }
 #main-containers{
    
-        background-image: url("/assects/images/wireless-earbuds-with-neon-cyberpunk-style-lighting.jpg") !important;
+        background-image: url(" /assects/images/wireless-earbuds-with-neon-cyberpunk-style-lighting.jpg") !important;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -84,4 +84,20 @@ header{
     justify-content: center; */
     margin: auto;
     margin-bottom: 20px;
+    /* border: 1px solid rgb(143, 143, 145) !important; */
+   /* background: linear-gradient(115deg,#eeaf61,rgb(20, 20, 200),rgb(155, 22, 22)); */
+   padding: 2px;
+    border-radius: 13px !important;
+    width:50px;
+    height: 450px;
+    box-shadow: 2px 4px 14px ;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.card img{
+    overflow:hidden;
 }
