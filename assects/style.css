@@ -90,7 +90,7 @@ header{
     border-radius: 13px !important;
     width:50px;
     height: 450px;
-    box-shadow: 2px 4px 14px ;
+    /* box-shadow: 2px 4px 14px ; */
 }
 .card-title{
     text-align: center;
@@ -100,4 +100,24 @@ header{
 }
 .card img{
     overflow:hidden;
+}
+/* buy section */
+.buy .card{
+    border: 2px solid green;
+    height: fit-content;
+}
+.buy .card .btn{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   margin: auto;
+   width: 150px;
+}
+.buy .card p{
+    margin: 25px;
+}
+.price{
+    font-size: 3em;
+    color: #1d8cee;
+    text-align: center;
 }
