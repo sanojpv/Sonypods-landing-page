@@ -45,13 +45,17 @@ header{
 }
 #main-containers{
    
-        background-image: url(" /assects/images/wireless-earbuds-with-neon-cyberpunk-style-lighting.jpg") !important;
-        background-size: cover;
-        background-position: center;
+        /* background-image: url(" /assects/images/wireless-earbuds-with-neon-cyberpunk-style-lighting.jpg") !important; */
+      background:linear-gradient(175deg, rgba(255, 0, 0, 0.764), rgba(255, 255, 0, 0.71), rgb(54, 182, 54), rgb(30, 30, 213));
+      
+        /* background-size:cover;
+     
+     
+        background-position:center;
         background-repeat: no-repeat;
-        width: 100%;
-        height: 100vh; 
-    
+        */ width: 100%;
+        height: 100vh;  
+     
 }
 #brand-name{
      font-size: 3.5em !important;
@@ -78,6 +82,47 @@ header{
     transform: translateY(-4px);
 
 }
+#toogle-img{
+position: absolute;
+ bottom: 10px;
+ left: 35px;
+ display: flex;flex-wrap: wrap;
+}
+#toogle-img div{
+    width: 100px;
+    height: 100px;
+    border:none;
+    outline: none;
+ 
+    /* box-shadow: 
+    0 0 4px #fff,
+    0 0 7px #fff,
+    0 0 8px #0073e6,
+    0 0 10px #0073e6,
+    0 0 15px #0073e6,
+    0 0 20px #0073e6; */
+    margin: 8px;
+    border-radius: 10px;
+}
+#toogle-img div>img{
+    width: 100%;
+    height:14vh;
+    border-radius: 10px;
+     box-shadow: 
+    0 0 4px #fff,
+    0 0 7px #fff,
+    0 0 8px #0073e6,
+    0 0 10px #0073e6,
+    0 0 15px #0073e6,
+    0 0 20px #0073e6;
+
+}
+
+
+
+
+
+
 .card{
     /* display: flex;
     align-content: center;
